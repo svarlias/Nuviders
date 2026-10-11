@@ -13,7 +13,7 @@
       "description": "Fast data parser for external streams.",
       "version": "1.0.0",
       "supportedTypes": ["movie", "series"],
-      "filename": "provider.js",
+      "filename": "dexter.js",
       "enabled": true,
       "contentLanguage": ["en"],
       "formats": ["m3u8"],
