@@ -1,23 +1,19 @@
 {
-  "id": "com.user.customproviders",
-  "name": "Custom Provider Extension",
-  "description": "Collection of custom parsing plugins.",
+  "name": "Nuviders",
   "version": "1.0.0",
-  "resources": ["stream"],
-  "types": ["movie", "series"],
-  "catalogs": [],
-  "providers": [
+  "scrapers": [
     {
-      "id": "provider-one",
-      "name": "Provider One",
+      "id": "dexter",
+      "name": "Dexter",
       "description": "Fast data parser for external streams.",
       "version": "1.0.0",
-      "supportedTypes": ["movie", "series"],
+      "author": "",
+      "supportedTypes": ["movie", "tv"],
       "filename": "dexter.js",
       "enabled": true,
-      "contentLanguage": ["en"],
+      "hasSettings": false,
       "formats": ["m3u8"],
-      "supportsExternalPlayer": true
+      "contentLanguage": ["en"]
     }
   ]
 }
