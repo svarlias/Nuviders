@@ -1,0 +1,23 @@
+{
+  "id": "com.user.customproviders",
+  "name": "Custom Provider Extension",
+  "description": "Collection of custom parsing plugins.",
+  "version": "1.0.0",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "providers": [
+    {
+      "id": "provider-one",
+      "name": "Provider One",
+      "description": "Fast data parser for external streams.",
+      "version": "1.0.0",
+      "supportedTypes": ["movie", "series"],
+      "filename": "provider.js",
+      "enabled": true,
+      "contentLanguage": ["en"],
+      "formats": ["m3u8"],
+      "supportsExternalPlayer": true
+    }
+  ]
+}
